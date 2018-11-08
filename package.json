@@ -1,0 +1,19 @@
+{
+  "name": "githubgraphql",
+  "version": "1.0.0",
+  "description": "A CLI for github's graphql api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sunrise-Integration/github-graphql.git"
+  },
+  "author": "Matthew McKey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunrise-Integration/github-graphql/issues"
+  },
+  "homepage": "https://github.com/Sunrise-Integration/github-graphql#readme"
+}
