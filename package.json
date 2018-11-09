@@ -22,22 +22,10 @@
   },
   "homepage": "https://github.com/Sunrise-Integration/github-graphql#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "cross-fetch": "^2.2.3",
     "dotenv": "^6.1.0",
-    "es6-promise": "^4.2.5",
     "eslint": "^5.8.0",
-    "graphql-request": "^1.8.2",
-    "isomorphic-fetch": "^2.2.1",
-    "webpack": "^4.25.1",
-    "whatwg-fetch": "^3.0.0",
-    "xmlhttprequest": "^1.8.0"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   },
-  "devDependencies": {
-    "@babel/core": "^7.1.5",
-    "@babel/preset-env": "^7.1.5",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.4",
-    "webpack-cli": "^3.1.2"
-  }
+  "devDependencies": {}
 }
