@@ -28,6 +28,10 @@ Add your own values to the .env file
 | baseRef   | Branch name to merge into *eg:* develop                                                                                                                                                                                    |
 | headRef   | Branch name to merge from *eg:* feature-branch-name                                                                                                                                                                        |
 
-Proudly created by:
+<p align="center">Proudly created by:</p>
 
-![Custom software intergrations](https://borderfree-dev.sunriseintegration.com/img/sunrise-integration-logo.png)
+<p align="center">
+
+<img src="https://borderfree-dev.sunriseintegration.com/img/sunrise-integration-logo.png" alt="Custom software integrations by Sunrise">
+
+</p>
