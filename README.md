@@ -6,6 +6,12 @@ A CLI for **C**reating **A**nd **M**erging **P**ull **R**equests
 
 `npm install -g campr`
 
+## Usage 
+
+`campr "name of pull request"`
+
+This will create a pull request with the name you pass it and then automatically merge it into the branch you specify as the baseRef in the .env file
+
 ## Configuration
 
 
