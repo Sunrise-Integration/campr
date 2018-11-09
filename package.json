@@ -1,5 +1,5 @@
 {
-  "name": "githubgraphql",
+  "name": "campr",
   "version": "1.0.0",
   "description": "A CLI for github's graphql api",
   "main": "index.js",

@@ -7,7 +7,7 @@ const queries = require("./queries");
 const axios = require("axios");
 const args = require("yargs").argv;
 
-const PRName = args.prName || args._[0] || "PR from GithubGraphQL";
+const PRName = args.prName || args._[0] || "PR from Campr";
 
 const API_URL = `https://api.github.com/graphql`;
 
@@ -24,19 +24,6 @@ axios.defaults.headers.post["Content-Type"] = "application/json";
 axios.defaults.headers.common["user-agent"] = "node.js";
 axios.defaults.headers.common["Accept"] =
   "application/vnd.github.ocelot-preview+json";
-
-const questions = [
-  {
-    type: "input",
-    name: "commitName",
-    message: "Enter commit name"
-  },
-  {
-    type: "input",
-    name: "prName",
-    message: "Enter pull request name"
-  }
-];
 
 const main = async () => {
   console.log("Fetching repository...");
