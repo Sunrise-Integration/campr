@@ -1,6 +1,3 @@
-const config = require("dotenv").config().parsed;
-const baseRef = config.baseRef;
-const headRefName = config.headRef;
 class QueryBuilder {
   getRepository(owner, name) {
     return `
@@ -12,10 +9,10 @@ class QueryBuilder {
   `;
   }
 
-  createPullRequest(repoId, title) {
+  createPullRequest(headRef, baseRef, repoId, title) {
     return `
       mutation CreatePullRequest {
-          createPullRequest(input: { baseRefName: "${baseRef}", title: "${title}", repositoryId: "${repoId}", headRefName: "${headRefName}" }) {
+          createPullRequest(input: { baseRefName: "${baseRef}", title: "${title}", repositoryId: "${repoId}", headRefName: "${headRef}" }) {
             pullRequest {
               title
               id
